@@ -1,0 +1,115 @@
+@charset "UTF-9";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background: #000;
+}
+
+header{
+    margin-top: 10px;
+}
+
+.titles{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    font-family: 'Aubrey', cursive;
+    font-size: 1.8em;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1355px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header nav li{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+header nav ul{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style-type: none;
+    font-size: 1.3em;
+}
+
+.pesquisar{
+}
+
+i#iconsearch{
+    color: #E5E5E5;
+    position: absolute;
+    transform: translate(59%,50%);
+    cursor: pointer;
+}
+
+input{
+    width: 243px;
+    background: #302D2D;
+    border: none;
+    padding: 10px;
+    text-indent: 25px;
+    color: #E5E5E5;
+    border-radius: 5px;
+
+}
+
+input:focus{
+    outline: 0;
+    border: 1px solid #BD00FF;
+}
+
+.botoes{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.botoes button{
+    width: 123px;
+    height: 42px;
+    border-radius: 5px;
+}
+
+button#up{
+    background-color: #BD00FF;
+    color: white;
+}
+
+button#in{
+    color: white;
+    background-color: #000;
+    border: 1px solid #BD00FF;
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-top: 70px;
+    color: white;
+}
+
+main h1{
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    padding-bottom: 20px;
+}
+
+.highlights{
+    position: absolute;
+}
