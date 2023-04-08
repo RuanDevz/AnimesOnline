@@ -131,3 +131,41 @@ img#hunter{
    position: absolute;
    top: 35%;
 }
+
+.newepisodes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1320px;
+    cursor: pointer;
+}
+
+.newepisodes img{
+    width: 50%;
+}
+
+.vermais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+    padding-bottom: 150px;
+}
+
+.vermais button{
+    padding: 25px 60px;
+    background-color: #000;
+    color: white;
+    border: 1px solid #BD00FF;
+    font-size: 1.4em;
+}
+
+footer{
+    background: #302D2D ;
+}
+
+.primeira{
+    display: flex;
+    align-items: center;
+    max-width: 252px;
+}
