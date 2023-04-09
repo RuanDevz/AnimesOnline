@@ -86,11 +86,17 @@ input:focus{
 }
 
 button#up{
+    border: none;
     background-color: #BD00FF;
     color: white;
 }
 
+button#up:hover{
+    background: #b000f0;
+}
+
 button#in{
+    border: none;
     color: white;
     background-color: #000;
     border: 1px solid #BD00FF;
