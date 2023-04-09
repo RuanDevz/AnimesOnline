@@ -153,19 +153,57 @@ img#hunter{
 }
 
 .vermais button{
-    padding: 25px 60px;
+    padding: 15px 60px;
     background-color: #000;
     color: white;
-    border: 1px solid #BD00FF;
+    border: 2px solid #BD00FF;
     font-size: 1.4em;
+    border-radius: 5px;
 }
 
 footer{
-    background: #302D2D ;
+    border-top: 1px solid white;
+    color: white;
+    background: #000;
+}
+
+footer p {
+    margin-left: 10px;
+}
+
+p#subanime{
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+
+nav li{
+    list-style-type: none;
 }
 
 .primeira{
+    font-family: 'Aubrey', cursive;
+    font-weight: 100;
     display: flex;
     align-items: center;
-    max-width: 252px;
+    flex-direction: column;
+    gap: 8px;
+    margin-left: 20px;
+}
+
+.atalhos nav{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px 0px;
+    font-size: 1.3em;
+}
+
+.socialmedia h2{
+    text-align: center;
+}
+
+.redessociais{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
 }
