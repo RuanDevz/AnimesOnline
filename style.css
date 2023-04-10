@@ -46,6 +46,11 @@ header nav ul{
     font-size: 1.3em;
 }
 
+ul li:hover{
+    cursor: pointer;
+    color: #b000f0;
+}
+
 .pesquisar{
 }
 
@@ -92,6 +97,7 @@ button#up{
 }
 
 button#up:hover{
+    cursor: pointer;
     background: #b000f0;
 }
 
@@ -100,6 +106,11 @@ button#in{
     color: white;
     background-color: #000;
     border: 1px solid #BD00FF;
+}
+
+button#in:hover{
+    cursor: pointer;
+    color: #b000f0;
 }
 
 main{
